@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@r-wasm/webr": "^0.1.1"
+  }
+}
