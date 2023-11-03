@@ -1,4 +1,4 @@
-const { WebR } = require('@r-wasm/webr');
+const { WebR } = require('webr');
 
 const webR = new WebR();
 

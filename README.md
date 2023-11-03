@@ -1,6 +1,6 @@
 # Example of running webR under node
 
-This repo contains an example of importing and running webR under node. The `@r-wasm/webr` npm package contains both CommonJS and ES Module versions of the webR JavaScript loader, and so the following two examples are included,
+This repo contains an example of importing and running webR under node. The `webr` npm package contains both CommonJS and ES Module versions of the webR JavaScript loader, and so the following two examples are included,
 
  * `index.js` loads the CommonJS build of webR using the `require()` function.
  * `index.mjs` loads ES Module build of webR using `import` statement.
@@ -8,8 +8,8 @@ This repo contains an example of importing and running webR under node. The `@r-
 ## Running the example (Linux/macOS)
 
 * Clone this repo and `cd` into the new directory.
-* Install webR: `npm install`, or `npm install @r-wasm/webr`.
-* Run the example: `node index.js`, or `node index.mjs`.
+* Install webR: `npm install`, or `npm install webr`.
+* Run the examples: `node index.js`, `node index.mjs`, or `npx tsx index.mts`.
 
 If successful, the example will load webR and display 10 normally distributed random numbers,
 
